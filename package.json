@@ -12,13 +12,19 @@
     "deploy-contracts": "sh scripts/deploy_contracts.sh",
     "start-trufflepig": "sh scripts/start_trufflepig.sh",
     "colony-starter": "node scripts/colony_starter.js",
-    "test": "lerna run test"
+    "test": "lerna run test",
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
   },
   "devDependencies": {
     "chalk": "^2.4.1",
     "fs-extra": "^7.0.0",
     "ganache-cli": "^6.1.0",
-    "lerna": "^3.0.0-rc.0",
+    "lerna": "^3.0.0",
     "trufflepig": "^1.0.4"
+  },
+  "snyk": true,
+  "dependencies": {
+    "snyk": "^1.179.0"
   }
 }
