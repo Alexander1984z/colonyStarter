@@ -1,0 +1,11 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.19.0
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  SNYK-JS-LODASH-567746:
+    - trufflepig > blessed-contrib > lodash:
+        patched: '2020-09-12T01:28:05.642Z'
+  'npm:request:20160119':
+    - trufflepig > blessed-contrib > picture-tube > request:
+        patched: '2020-09-12T01:28:05.642Z'
