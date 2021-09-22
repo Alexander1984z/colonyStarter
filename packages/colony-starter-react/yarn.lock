@@ -1581,7 +1581,7 @@ elliptic@6.3.3:
 
 elliptic@=3.0.3:
   version "3.0.3"
-  resolved "http://registry.npmjs.org/elliptic/-/elliptic-3.0.3.tgz#865c9b420bfbe55006b9f969f97a0d2c44966595"
+  resolved "https://registry.npmjs.org/elliptic/-/elliptic-3.0.3.tgz#865c9b420bfbe55006b9f969f97a0d2c44966595"
   dependencies:
     bn.js "^2.0.0"
     brorand "^1.0.1"
@@ -1850,7 +1850,7 @@ ethjs-util@^0.1.3:
 
 event-stream@~0.9.8:
   version "0.9.8"
-  resolved "http://registry.npmjs.org/event-stream/-/event-stream-0.9.8.tgz#5da9cf3c7900975989db5a68c28e5b3c98ebe03a"
+  resolved "https://registry.npmjs.org/event-stream/-/event-stream-0.9.8.tgz#5da9cf3c7900975989db5a68c28e5b3c98ebe03a"
   dependencies:
     optimist "0.2"
 
@@ -6797,9 +6797,9 @@ timed-tape@~0.1.1:
   version "0.1.1"
   resolved "https://registry.yarnpkg.com/timed-tape/-/timed-tape-0.1.1.tgz#9b6e569f17e66c79f1eed2d25ff7962fc7418e49"
 
-tmpl@1.0.x:
-  version "1.0.4"
-  resolved "https://registry.yarnpkg.com/tmpl/-/tmpl-1.0.4.tgz#23640dd7b42d00433911140820e5cf440e521dd1"
+tmpl@1.0.5, tmpl@1.0.x:
+  version "1.0.5"
+  resolved "https://registry.yarnpkg.com/tmpl/-/tmpl-1.0.5.tgz#8683e0b902bb9c20c4f726e3c0b69f36518c07cc"
 
 to-array@0.1.4:
   version "0.1.4"
